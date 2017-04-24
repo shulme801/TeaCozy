@@ -1,1 +1,1 @@
-Repository for Stephen Hulme's TeaCozy project code
+Tea Cozy Project Rel 1.0
