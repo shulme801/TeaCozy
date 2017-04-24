@@ -1,0 +1,104 @@
+/* CSS for the HTML Element or Tag Selectors */
+
+body{
+	font-size: 22px;
+	font-family: Helvetica, serif;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 20px;
+    justify-content: flex-end;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* CSS for the Class Selectors*/
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.stmt {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  font-size: 22px;
+}
+
+#store-section {
+  width: 1000px;
+  opacity: 0.9;
+  margin: 70px auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tea {
+  display:inline-flex;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.tea img{
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* CSS for the ID Selectors */
+
+#tea-cozy {
+  font-family: Helvetica, serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+#main-section {
+  padding-top: 69px;
+  width: 1200px;
+  opacity: 0.9;
+  margin: auto;
+}
+
+#mission {
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  padding-top: 70px;
+}
